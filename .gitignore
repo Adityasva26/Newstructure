@@ -1,0 +1,27 @@
+# Ignore compiled files
+*.class
+*.o
+*.pyc
+
+# Ignore log files and database dumps
+*.log
+*.sql
+*.sqlite
+
+# Ignore generated files
+/build/
+/dist/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore package-lock.json for Node.js projects
+package-lock.json
+
+# Ignore node_modules directory
+node_modules/
